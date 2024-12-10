@@ -1,4 +1,4 @@
--name: Vertex AI
+- name: Vertex AI
  percentage: 80
  color: warning
  
