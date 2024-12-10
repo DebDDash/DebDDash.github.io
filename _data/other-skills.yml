@@ -1,7 +1,23 @@
-- name: Adobe Photoshop
-  percentage: 95
+-name: Vertex AI
+ percentage: 80
+ color: warning
+ 
+- name: Gimp
+  percentage: 100
+  color: danger
+
+- name: Flutter
+  percentage: 70
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: PsychoPy
+  percentage: 85
   color: success
+
+- name: Bash
+  percentage: 85
+  color: primary
+  
+#- name: AWS
+#  percentage: 100
+#  color: success
