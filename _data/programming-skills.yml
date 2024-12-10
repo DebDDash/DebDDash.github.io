@@ -1,11 +1,27 @@
-- name: HTML5/CSS3
-  percentage: 90
+- name: HTML/CSS
+  percentage: 70
   color: danger
 
-- name: Go
-  percentage: 80
-  color:
+- name: Rust
+  percentage: 70
+  color: primary
 
 - name: Python
-  percentage: 70
+  percentage: 90
   color: secondary
+
+- name: SQL
+  percentage: 90
+  color: warning
+
+- name: C/C++
+  percentage: 80
+  color: success
+
+- name: Java
+  percentage: 80
+  color: info
+
+#- name: R
+#  percentage: 90
+#  color: warning
