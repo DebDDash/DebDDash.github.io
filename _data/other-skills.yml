@@ -1,23 +1,24 @@
 - name: Vertex AI
- percentage: 80
- color: warning
- 
+  percentage: 80
+  color: danger
+
 - name: Gimp
   percentage: 100
-  color: danger
+  color: primary
 
 - name: Flutter
   percentage: 70
-  color: info
+  color: secondary
 
-- name: PsychoPy
+- name: Psychopy
   percentage: 85
-  color: success
+  color: warning
 
 - name: Bash
-  percentage: 85
-  color: primary
-  
+  percentage: 80
+  color: success
+
 #- name: AWS
-#  percentage: 100
-#  color: success
+#  percentage: 90
+#  color: warning
+
