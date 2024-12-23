@@ -2,7 +2,7 @@
 name: The Mind's Mirror
 tools: [PsychoPy, scipy, mne, seaborn, numpy]
 image: /assets/mindsmirror.jpg
-description: A viual object classifier using brain signals. Explored preprocessing techniques on EEG data, including FFT, WT, TFD.
+description: A viual object classifier using brain signals.
 # external_url: https://www.google.com
 ---
 # The Mind's Mirror
@@ -20,10 +20,10 @@ The experiment involves displaying 10 numbers (0-9) and one non-numerical image 
 
 ### Preprocessing:
 
-**Normalization** 
-**Interpolation:** To ensure consistency and comparability between the datasets from different devices, the data was resampled using linear interpolation.
-**Bandpass Filtering:** It selectively allows a range of frequencies to pass through while attenuating frequencies outside this range.
-**Time Frequency Plots:** For a more comprehensive understanding of the data characteristics.
+1. **Normalization** 
+2. **Interpolation:** To ensure consistency and comparability between the datasets from different devices, the data was resampled using linear interpolation.
+3. **Bandpass Filtering:** It selectively allows a range of frequencies to pass through while attenuating frequencies outside this range.
+4. **Time Frequency Plots:** For a more comprehensive understanding of the data characteristics.
 
 <p align = "center">
     <img src="/assets/tfplot.png" width= "80%"/>
@@ -35,6 +35,19 @@ We collected the data. Please find more information [here.](https://github.com/D
 The dataset comprises recordings from over **20 trials**, collected using an EEG device with four active electrodes placed to target the optical regions of the brain.
 
 ## Data augmentation
+1. **SMOTE :** It generates synthetic data by selecting random samples from the minority class and identifying their k-nearest neighbors. It then combines the selected sample with a randomly chosen neighbor to create synthetic data points.
+2. **Time Slicing :** This involves selecting N trials and make every trail into N equal time slices. Then, will generate a new trial by recombining using one time slice from each of the selected trials in an order.
+3. **Bootstrap Sampling :** It is a technique used to estimate the distribution of a statistic (like mean, median) from a dataset by drawing random samples with replacement.
+<p align = "center">
+    <img src="/assets/dataaug.png" width= "80%"/>
+</p>
 
+## Classification
+ 1. **1D CNN :** It is designed to process sequential data like time-series or signals by applying convolutional filters along one dimension to capture temporal or spatial dependencies. It is suitable for classifying brain signals in this experiment as it efficiently learns patterns and features from the sequential data, distinguishing between numeric and non-numeric stimuli.
 
-## Conclusion
+##  Feature Extraction
+ 1. **Auto Correlation Method**
+ 2. **STFT**
+ 3. **DWT**
+    
+
