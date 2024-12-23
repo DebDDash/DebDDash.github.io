@@ -29,10 +29,10 @@ The dataset includes `training_data` and `test_data`, each as dictionaries with 
 3. **`annotations`**: Behavior IDs for each frame, provided by experts.  
    - **Dimensions**: (# frames).
 4. **`metadata`**: Includes `annotator_id` (integer) and `vocab` (behavior-to-ID mapping).
-### `taskprog_features`
+#### `taskprog_features`
 Includes pre-computed `features` from a task-programming model.  
 - **Dimensions**: (# frames) x (feature dim = 32).
-### Notes
+#### Notes
 - **Mouse 0**: Resident (black); **Mouse 1**: Intruder (white).  
 - **Tracked Body Parts** (7): Nose, left ear, right ear, neck, left hip, right hip, tail base.
 
