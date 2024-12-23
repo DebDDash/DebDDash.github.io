@@ -26,7 +26,7 @@ The experiment involves displaying 10 numbers (0-9) and one non-numerical image 
 **Time Frequency Plots:** For a more comprehensive understanding of the data characteristics.
 
 <p align = "center">
-    <img src="/assets/tfplot.png" width= "90%"/>
+    <img src="/assets/tfplot.png" width= "80%"/>
 </p>
 
 ## Data sources
