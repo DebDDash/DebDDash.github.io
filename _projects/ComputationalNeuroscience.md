@@ -14,7 +14,7 @@ description:  Investigate the structure of mouse social behaviour through a resi
 This code is adapted from a notebook created by Dipam Chakraborty at AIcrowd for the [Multi-Agent Behavior Challenge.](https://www.aicrowd.com/challenges/multi-agent-behavior-representation-modeling-measurement-and-applications)
 
 ## Data sources
-The CalMS21 dataset is hosted by Caltech at [https://data.caltech.edu/records/1991.](https://data.caltech.edu/records/1991.)
+The [CalMS21 dataset](https://data.caltech.edu/records/1991) is hosted by Caltech.
 The dataset files are stored as json files. For ease of handling, it was first converted to .npy files which contained 32 features.
 
 ## Dataset specifications
