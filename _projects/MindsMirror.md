@@ -46,8 +46,12 @@ The dataset comprises recordings from over **20 trials**, collected using an EEG
  1. **1D CNN :** It is designed to process sequential data like time-series or signals by applying convolutional filters along one dimension to capture temporal or spatial dependencies. It is suitable for classifying brain signals in this experiment as it efficiently learns patterns and features from the sequential data, distinguishing between numeric and non-numeric stimuli.
 
 ##  Feature Extraction
- 1. **Auto Correlation Method**
- 2. **STFT**
- 3. **DWT**
+ 1. **Auto Correlation Method :** Measures the similarity of a signal with a time-lagged version of itself to identify repeating patterns.
+ 2. **STFT :** Short-Time Fourier Transform analyzes the frequency content of a signal over time using overlapping windows.
+ 3. **DWT :** Discrete Wavelet Transform decomposes a signal into different frequency components, preserving both time and frequency information.
+<p align = "center">
+    <img src="/assets/eegmodel.png" width= "80%"/>
+</p>    
     
-
+##  Conclusion
+Combining diverse feature extraction techniques with classification algorithms enabled the model to effectively capture and analyze complex EEG signal patterns.
