@@ -1,7 +1,8 @@
 ---
-name: Empty Project
+name: Automatic Stock Trading 
 tools: [Node JS, JavaScript, HTML, CSS]
 image:
-description: This project has no image or showcase page, but it is still a beautiful project inside out!
-external_url: https://github.com/yousinix
+description: Utilized financial indicators with ML and DRL strategies for stock selection and optimized portfolio allocation.
+# external_url: https://github.com/yousinix
 ---
+# Automatic Stock Trading 
