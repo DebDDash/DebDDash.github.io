@@ -29,12 +29,26 @@ The dataset includes `training_data` and `test_data`, each as dictionaries with 
 3. **`annotations`**: Behavior IDs for each frame, provided by experts.  
    - **Dimensions**: (# frames).
 4. **`metadata`**: Includes `annotator_id` (integer) and `vocab` (behavior-to-ID mapping).
-#### `taskprog_features`
-Includes pre-computed `features` from a task-programming model.  
-- **Dimensions**: (# frames) x (feature dim = 32).
-#### Notes
+5. **`taskprog_features`**: Includes pre-computed `features` from a task-programming model.
+   - **Dimensions**: (# frames) x (feature dim = 32).
+##### Notes
 - **Mouse 0**: Resident (black); **Mouse 1**: Intruder (white).  
 - **Tracked Body Parts** (7): Nose, left ear, right ear, neck, left hip, right hip, tail base.
-
-    
+### Visualization
+The animation illustrates the trajectory of mouse movements during the recorded session. It visualizes the dynamic spatial positioning of the mouse across frames.
+<p align = "center">
+    <img src="/assets/mice.png" width= "80%"/>
+</p>
+The behavior raster plot presents a detailed annotation of the mouse's behavior frame by frame throughout the session. 
+<p align = "center">
+    <img src="/assets/raster.png" width= "80%"/>
+</p>
+After examining the behavior raster plots, we observed several trends:
+1. Decreasing Investigative Behavior Over Time
+2. Similar likelihood of mounting and attack behaviors 
+3.Non-Stationarity of Behavior
+<p align = "center">
+    <img src="/assets/likelihood.png" width= "80%"/>
+</p>
 ##  Conclusion
+By integrating spatial movement trajectories with detailed behavioral annotations, these visualizations allow us to analyze both locomotion and decision-making patterns
