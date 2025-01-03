@@ -35,11 +35,11 @@ Backtesting was performed for the three individual agents and our ensemble strat
     <img src="/assets/performance.png" width= "60%"/>
 </p>
 Five metrics were used to evaluate results:
-• Cumulative Return: Calculated by subtracting the portfolio’s final value from its initial value and then dividing by the initial value.
-• Annualized Return: The geometric average amount of money earned by the agent each year over the time period.
-• Annualized Volatility: The annualized standard deviation of portfolio return.
-• Sharpe Ratio: Calculated by subtracting the annualized risk-free rate from the annualized return and then dividing by the annualized volatility.
-• Max Drawdown: The maximum percentage loss during the trading period.
+- Cumulative Return: Calculated by subtracting the portfolio’s final value from its initial value and then dividing by the initial value.
+- Annualized Return: The geometric average amount of money earned by the agent each year over the time period.
+- Annualized Volatility: The annualized standard deviation of portfolio return.
+- Sharpe Ratio: Calculated by subtracting the annualized risk-free rate from the annualized return and then dividing by the annualized volatility.
+- Max Drawdown: The maximum percentage loss during the trading period.
 
 ## Analysis
 The A2C agent is more adaptive to risk. It has the lowest annual volatility and max drawdown among the three agents. So A2C is good at handling a bearish market. PPO agent is good at following trend and acts well in generating more returns, it has the highest annual return and cumulative return among the three agents. So PPO is preferred when facing a bullish market. DDPG performs similar but not as good as PPO, it can be used as a complementary strategy to PPO in a bullish market.
