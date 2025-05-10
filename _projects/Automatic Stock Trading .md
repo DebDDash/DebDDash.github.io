@@ -1,7 +1,7 @@
 ---
 name: Automatic Stock Trading 
 tools: [pyfolio, datetime,numpy]
-
+order: 1
 image: /assets/stocks.png
 description: Utilized financial indicators with ML and DRL strategies for stock selection and optimized portfolio allocation.
 # external_url: https://github.com/yousinix
