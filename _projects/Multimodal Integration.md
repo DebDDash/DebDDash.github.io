@@ -1,7 +1,7 @@
 ---
 name: Multimodal Integration
 tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+# image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: Combining different molecular datasets to enable consistent analysis
 ---
 
