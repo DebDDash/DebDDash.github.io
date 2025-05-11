@@ -1,7 +1,7 @@
 ---
 name: Forecasting Using Time Series Analysis 
 tools: [statsmodel, yfinance]
-image: /assets/timeseriess.png
+image: /assets/timeseries.png
 description: Predict market trends using statistical tests and time series analysis.
 # external_url: https://www.google.com
 ---
