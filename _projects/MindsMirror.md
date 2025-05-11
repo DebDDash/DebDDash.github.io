@@ -1,7 +1,7 @@
 ---
 name: The Mind's Mirror
 tools: [PsychoPy, scipy, mne, seaborn, numpy]
-image: /assets/mindsmirror.jpg
+# image: /assets/mindsmirror.jpg
 description: A viual object classifier using brain signals.
 # external_url: https://www.google.com
 ---
