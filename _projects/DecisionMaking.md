@@ -1,7 +1,7 @@
 ---
 name: Decision Making
 tools: [mne,sklearn,numpy]
-image: /assets/decision.png
+image: /assets/brain.png
 description: Predict trait anxiety levels using a combination of behavioral patterns and EEG signals collected during a decision-making game.
 
 ---
