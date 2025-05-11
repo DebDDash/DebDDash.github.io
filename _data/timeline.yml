@@ -3,12 +3,12 @@
   to: July 2024
   description: Enhanced the classification accuracy of abnormal red blood cells to streamline digital pathology report generation.<br>Digitized 1200 images of RBCs from blood smears using the digital pathology device, facilitating annotation with gimp.<br>Utilized Explainable AI to visualize and interpret features extracted through the deep learning model from RBC images.<br> Implemented user interface dashboards using Flutter for the device, enhancing digital pathology workflows and UX.
 
-- title: BS, Indian Institute of Technology Madras (Online)
-  from: 2022
-  to: present
+- title: Diploma in Data Science, Indian Institute of Technology Madras
+  from: Sep 2022
+  to: May 2025
   description: Data Science
 
 - title: BTech, Indian Institute of Technology Kanpur
-  from: 2022
+  from: Sep 2022
   to: present
   description: Biological Sciences and Bioengineering
