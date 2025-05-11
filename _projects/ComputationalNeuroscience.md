@@ -2,7 +2,7 @@
 name: Computational Neuroscience
 tools: [tensorflow, json, pandas]
 order: 2
-# image: /assets/compnero.jpeg
+image: /assets/compneuro.jpeg
 description:  Investigate the structure of mouse social behaviour through a resident-intruder assay
 # external_url: https://www.google.com
 ---
