@@ -11,7 +11,7 @@ Hi I am **{{ site.author.name }}** :wave:,<br> a final-year undergraduate at IIT
 
 I’ve worked on everything from EEG-based brain-computer interfaces and gene expression modeling to stock market prediction and privacy-preserving machine learning. During my recent internship at Bosch, I optimized abnormal RBC classification using deep learning and built interactive UI dashboards for pathology devices. I also lead machine learning initiatives under the Brain and Cognitive Society, where I mentor students and run interdisciplinary projects in computational neuroscience.
 
-Outside of academics, I’m a competitive boxer (Bronze Medalist at the Karnataka State Championship!) and an avid chess enthusiast—both keep me grounded, strategic, and energized. I also love teaching, building with people, and exploring creative solutions that bring science and tech closer to everyday life.
+Outside of academics, I’m a competitive boxer and an avid chess enthusiast. I also love teaching, building with people, and exploring creative solutions that bring science and tech closer to everyday life.
 
 Let’s connect if you’re into any of the same things—or even if you’re not, I love a good conversation!
 
